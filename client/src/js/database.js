@@ -13,7 +13,7 @@ const initdb = async () =>
   });
 
 // method that accepts some content and adds it to the database
-export const putDb = async (content) => {console.error('putDb not implemented');
+export const putDb = async (content) => {
 
  // Create connection to db 
  const contactDb = await openDB('jate', 1);
